@@ -49,7 +49,7 @@ const Footer = () => {
         ))}
       </Row>
       <div id="line-break"></div>
-      <div className="end">
+      <div className="f-end">
         
         <h3><Image src={logo} fluid/> Untitled UI</h3>
         <p>&copy; 2077 Untitled UI.All rights reserved.</p>

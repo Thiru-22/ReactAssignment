@@ -20,7 +20,7 @@
     color: #007bff; /* Highlight color */
     text-decoration: underline;
   }
-  .end{
+  .f-end{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
