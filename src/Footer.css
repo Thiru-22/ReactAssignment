@@ -1,0 +1,38 @@
+.footer {
+    /* background-color: #f8f9fa; Light gray background */
+    color: #343a40; /* Dark text */
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-item {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    color: #6c757d; /* Muted text color */
+    cursor: pointer;
+  }
+  
+  .footer-item:hover {
+    color: #007bff; /* Highlight color */
+    text-decoration: underline;
+  }
+  .end{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  @media (max-width: 576px) {
+    .footer-title {
+      font-size: 14px;
+    }
+  
+    .footer-item {
+      font-size: 12px;
+    }
+  }
+  

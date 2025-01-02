@@ -1,0 +1,40 @@
+
+.part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+#cards{
+    width: 384px;
+}
+#card-img{
+    width: 384px;
+    height: 240px;
+}
+.divide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.section2 .button{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.section2 .button button{
+    width:fit-content;
+}

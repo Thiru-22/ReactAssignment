@@ -1,0 +1,123 @@
+/* Center alignment for the container */
+.contain {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Styles for feature section */
+  .feature {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(127, 86, 217, 1);
+    margin-bottom: 5px;
+  }
+  
+  #c-heading{
+    font-size: 2.2rem;
+    /* margin-bottom: 20px; */
+    font-weight: 600;
+  }
+  
+#c-para {
+    font-size: 1.3rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+    width: 60%;
+  }
+  
+  /* List item styling */
+  .list-item {
+    text-align: center;
+    padding: 18px;
+    
+  }
+  
+ 
+  
+  .icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .list-head {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .list-para {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+
+.part2{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 249, 250);
+    margin-bottom: 10rem;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.part2 h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px; /* Large display size */
+    font-weight: 540; /* Medium weight */
+    line-height: 60px; /* Line height for spacing */
+    letter-spacing: -0.02em; /* Adjusted letter spacing */
+    text-align: center;
+    margin: 2rem ;
+    width: 80%;
+}
+.person{
+    width: 60px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+.part2 h6{
+    font-weight: 600;
+    font-size: 18px;
+}
+.part2 p{
+    font-size: 16px;
+}
+.p-icon{
+    width: 25px
+}
+.link{
+    color: #75229e;
+    text-decoration: none;
+}
+.part3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.part3 span{
+    border: #c3c5c7 solid 1px;
+    padding: 0px 10px;
+    border-radius: 2rem;
+    color: #5c229e;
+    letter-spacing: 0.5px;
+    background-color: #f8fafb;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+#line-break{
+  margin-bottom: 2rem;
+  border: 1px solid rgb(222, 217, 217);
+  width:100%;
+}
